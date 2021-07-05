@@ -42,3 +42,48 @@ TermSocket.open: Opened 1
 [I 19:14:08.386 NotebookApp] Starting buffering for d21ef768-441a-4a09-b878-7310043d95e8:2cfc65fa760a4a758bfa81f66aae937c
 [W 19:25:00.766 NotebookApp] Culling 'idle' kernel 'python3' (d21ef768-441a-4a09-b878-7310043d95e8) with 0 connections due to 653 seconds of inactivity.
 [I 19:25:00.767 NotebookApp] Kernel shutdown: d21ef768-441a-4a09-b878-7310043d95e8
+[W 19:34:35.215 NotebookApp] Notebook Pump It Up - Test.ipynb is not trusted
+[I 19:34:35.784 NotebookApp] Kernel started: 92142f44-a233-4a57-94a3-46516497cf32, name: python3
+[I 19:34:40.324 NotebookApp] Saving file at /Pump It Up - Test.ipynb
+[W 19:34:40.325 NotebookApp] Notebook Pump It Up - Test.ipynb is not trusted
+Websocket closed
+[I 19:34:52.010 NotebookApp] EOF on FD 31; stopping reading
+[I 19:34:52.110 NotebookApp] Terminal 1 closed
+[I 19:34:55.196 NotebookApp] Kernel shutdown: 92142f44-a233-4a57-94a3-46516497cf32
+[W 19:34:55.559 NotebookApp] 404 DELETE /user/jannaw0402-pump-it-up-test-y78z42xe/api/sessions/ba7f4e42-6a48-4644-9de5-748d71763f64 (165.225.209.50): Session not found: session_id='ba7f4e42-6a48-4644-9de5-748d71763f64'
+[W 19:34:55.559 NotebookApp] Session not found: session_id='ba7f4e42-6a48-4644-9de5-748d71763f64'
+[W 19:34:55.560 NotebookApp] 404 DELETE /user/jannaw0402-pump-it-up-test-y78z42xe/api/sessions/ba7f4e42-6a48-4644-9de5-748d71763f64 (165.225.209.50) 1.850000ms referer=https://hub.mybinder.turing.ac.uk/user/jannaw0402-pump-it-up-test-y78z42xe/notebooks/Pump%20It%20Up%20-%20Test.ipynb
+[W 19:35:30.535 NotebookApp] Notebook Pump It Up - Test.ipynb is not trusted
+[I 19:35:31.106 NotebookApp] Kernel started: 4b8e7874-f15e-4fc8-b93b-7807d123d4d5, name: python3
+[I 19:36:05.220 NotebookApp] Starting buffering for 4b8e7874-f15e-4fc8-b93b-7807d123d4d5:87907d894ed64f9e87cce432c63d79ff
+[I 19:36:11.355 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[W 19:46:00.766 NotebookApp] Culling 'idle' kernel 'python3' (4b8e7874-f15e-4fc8-b93b-7807d123d4d5) with 0 connections due to 628 seconds of inactivity.
+[I 19:46:00.768 NotebookApp] Kernel shutdown: 4b8e7874-f15e-4fc8-b93b-7807d123d4d5
+Websocket closed
+[W 20:40:40.962 NotebookApp] Notebook Pump It Up - Test.ipynb is not trusted
+[I 20:40:41.904 NotebookApp] Kernel started: ec3135cc-fc05-4997-be76-25aa8a8c9206, name: python3
+[I 20:46:44.001 NotebookApp] Saving file at /Pump It Up - Test.ipynb
+[W 20:46:44.002 NotebookApp] Notebook Pump It Up - Test.ipynb is not trusted
+[W 20:51:00.767 NotebookApp] Culling 'idle' kernel 'python3' (ec3135cc-fc05-4997-be76-25aa8a8c9206) with 1 connections due to 617 seconds of inactivity.
+[I 20:51:00.767 NotebookApp] Kernel shutdown: ec3135cc-fc05-4997-be76-25aa8a8c9206
+[W 20:51:01.589 NotebookApp] 410 DELETE /user/jannaw0402-pump-it-up-test-y78z42xe/api/sessions/1cb33e69-7c65-4c2a-b951-d22077b62554 (165.225.209.50): Kernel deleted before session
+[W 20:51:01.589 NotebookApp] Kernel deleted before session
+[W 20:51:01.590 NotebookApp] 410 DELETE /user/jannaw0402-pump-it-up-test-y78z42xe/api/sessions/1cb33e69-7c65-4c2a-b951-d22077b62554 (165.225.209.50) 1.980000ms referer=https://hub.mybinder.turing.ac.uk/user/jannaw0402-pump-it-up-test-y78z42xe/notebooks/Pump%20It%20Up%20-%20Test.ipynb
+[W 20:53:07.579 NotebookApp] 404 DELETE /user/jannaw0402-pump-it-up-test-y78z42xe/api/sessions/1cb33e69-7c65-4c2a-b951-d22077b62554 (165.225.209.50): Session not found: session_id='1cb33e69-7c65-4c2a-b951-d22077b62554'
+[W 20:53:07.579 NotebookApp] Session not found: session_id='1cb33e69-7c65-4c2a-b951-d22077b62554'
+[W 20:53:07.580 NotebookApp] 404 DELETE /user/jannaw0402-pump-it-up-test-y78z42xe/api/sessions/1cb33e69-7c65-4c2a-b951-d22077b62554 (165.225.209.50) 1.810000ms referer=https://hub.mybinder.turing.ac.uk/user/jannaw0402-pump-it-up-test-y78z42xe/notebooks/Pump%20It%20Up%20-%20Test.ipynb
+[I 20:53:07.793 NotebookApp] Kernel started: a9639722-6ce3-466a-9336-132ededb3ba5, name: python3
+[W 20:53:12.811 NotebookApp] Notebook Pump It Up - Test.ipynb is not trusted
+[W 20:53:12.817 NotebookApp] Trusting notebook /Pump It Up - Test.ipynb
+[I 20:53:13.613 NotebookApp] Starting buffering for a9639722-6ce3-466a-9336-132ededb3ba5:e255f83765024ba5858cea7877bf2714
+[I 20:59:16.092 NotebookApp] Saving file at /Pump It Up - Test.ipynb
+[I 21:03:15.572 NotebookApp] Saving file at /Pump It Up - Test.ipynb
+[I 21:05:15.851 NotebookApp] Saving file at /Pump It Up - Test.ipynb
+[I 21:06:33.575 NotebookApp] Saving file at /Pump It Up - Test.ipynb
+[I 21:06:50.658 NotebookApp] Saving file at /Pump It Up - Test.ipynb
+[I 21:06:54.669 NotebookApp] Starting buffering for a9639722-6ce3-466a-9336-132ededb3ba5:d40781bd05fb48148b90734e13643627
+[I 21:06:59.592 NotebookApp] New terminal with automatic name: 2
+TermSocket.open: 2
+TermSocket.open: Opened 2
