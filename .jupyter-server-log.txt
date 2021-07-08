@@ -449,3 +449,51 @@ TermSocket.open: Opened 1
 [I 17:31:36.664 NotebookApp] New terminal with automatic name: 1
 TermSocket.open: 1
 TermSocket.open: Opened 1
+[W 20:10:51.566 NotebookApp] Error loading server extension jupyter_nbextensions_configurator
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/notebookapp.py", line 1988, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/srv/conda/envs/notebook/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named 'jupyter_nbextensions_configurator'
+[W 20:10:51.591 NotebookApp] Error loading server extension jupyter_tabnine
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/notebookapp.py", line 1988, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/srv/conda/envs/notebook/lib/python3.7/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named 'jupyter_tabnine'
+[W 2021-07-08 20:10:52.491 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-08 20:10:52.491 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-08 20:10:52.491 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-08 20:10:52.492 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-08 20:10:52.492 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-08 20:10:52.492 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-08 20:10:52.492 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-08 20:10:52.492 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-07-08 20:10:52.492 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-07-08 20:10:52.492 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-08 20:10:52.492 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-08 20:10:52.492 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-07-08 20:10:52.503 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2021-07-08 20:10:52.503 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 20:10:52.514 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 20:10:52.516 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 20:10:52.517 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 20:10:52.517 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 20:10:52.517 NotebookApp] http://jupyter-jannaw0402-2dpump-2dit-2dup-2dtest-2dx5w7tgdl:8888/user/jannaw0402-pump-it-up-test-x5w7tgdl/?token=...
+[I 20:10:52.517 NotebookApp]  or http://127.0.0.1:8888/user/jannaw0402-pump-it-up-test-x5w7tgdl/?token=...
+[I 20:10:52.518 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 20:10:52.523 NotebookApp] No web browser found: could not locate runnable browser.
+[I 20:10:54.605 NotebookApp] 302 GET /user/jannaw0402-pump-it-up-test-x5w7tgdl/ (10.244.3.67) 1.470000ms
+[I 20:10:57.948 NotebookApp] 302 GET /user/jannaw0402-pump-it-up-test-x5w7tgdl/?token=26yTVVg1RaCr0W9TKYVkoQ (165.225.209.50) 0.620000ms
+[W 20:11:05.237 NotebookApp] 404 GET /user/jannaw0402-pump-it-up-test-x5w7tgdl/nbextensions/nbextensions_configurator/tree_tab/main.js?v=20210708201051 (165.225.209.50) 42.090000ms referer=https://hub.mybinder.turing.ac.uk/user/jannaw0402-pump-it-up-test-x5w7tgdl/tree
+[I 20:11:14.438 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
